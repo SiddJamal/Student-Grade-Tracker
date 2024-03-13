@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Home Page</title>
+</head>
+
+<body>
+	<form method="post" action="students?action=add">
+	<h1>Details</h1>
+	<form>
+		<div class="row">
+			<div class="col">Enter Name :
+				<input type="text" class="form-control" id="email" placeholder="Enter name" name="name">
+			</div>
+			<div class="col">Enter Roll no :
+				<input type="password" class="form-control" placeholder="Enter roll no." name="roll no.">
+			</div>
+			<div class="col">Enter Department :
+				<input type="text" class="form-control" placeholder="Enter department" name="department">
+			</div>
+
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th scope="col">Subjects</th>
+						<th scope="col">Obtained Marks</th>
+						<th scope="col">Total Marks</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row"> </th>
+					</tr>
+					<tr>
+						<th scope="row"> 1 </th>
+						<td><input type="number" placeholder="Enter marks" name="FirstSubject"></td>
+						<td>100</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row"> 2 </th>
+						<td><input type="number" placeholder="Enter marks" name="SecondSubject"></td>
+						<td>100</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row"> 3 </th>
+						<td><input type="number" placeholder="Enter marks" name="ThirdSubject"></td>
+						<td>100</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row"> 4 </th>
+						<td><input type="number" placeholder="Enter marks" name="FourthSubject"></td>
+						<td>100</td>
+						<td></td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div>
+		
+		<input type="submit" class="btn btn-primary" value="Submit"></input>
+		
+	</form>
+
+</body>
+
+</html>
